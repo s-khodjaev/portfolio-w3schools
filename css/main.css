@@ -1,0 +1,23 @@
+html,
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  line-height: 1.7;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 70% auto;
+  grid-template-areas:
+    'sidebar main'
+    'sidebar footer';
+}
+
+.sidebar {
+  grid-area: sidebar;
+  position: fixed;
+}
+
+.main {
+  grid-area: main;
+}
