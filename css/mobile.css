@@ -1,0 +1,29 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.main {
+  grid-template-columns: 1fr;
+}
+
+.sidebar {
+  position: static;
+  width: 100%;
+  display: none;
+}
+
+.projects {
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+.person .info .name,
+.person .info p {
+  font-size: 0.75rem;
+}
+
+#price {
+  flex-direction: column;
+}
